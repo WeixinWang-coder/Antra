@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+form {
+    margin: 2rem;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+}
+h1 {
+    text-align: center;
+    margin: 0.5rem;
+}
+div {
+    margin: 0.5rem;
+}
+input{
+    border-style: none;
+    border: 2px solid rgb(199, 199, 199);
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    height: 48px;
+    font-size: large;
+}
+.left_side{
+    margin-right: 0.5rem;
+}
+.name {
+    display: flex;
+}
+.passwrdd {
+    display: flex;
+}
+.checkbox {
+    width: auto;
+    height: auto;
+}
+.agree{
+    display: flex;
+    justify-content: space-between;
+}
+p {
+    display: inline-block;
+    width: 60%;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    border-style: none;
+    padding: 1rem;
+    width: 48%;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: larger;
+    margin: 0.25rem;
+}
+.register {
+    background-color: rgb(93, 93, 252);
+}
+.signIn {
+    background-color: rgb(134, 238, 134);
+}
+.register {
+    padding: 0.2rem;
+    border-radius: 5px;
+    background-color: rgb(93, 93, 252);
+    color: aliceblue;
+}
+.terms{
+    color: rgb(93, 93, 252);;
+}
