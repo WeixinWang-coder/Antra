@@ -1,0 +1,21 @@
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    div {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    button {
+        background-color: rgba(151, 15, 15, 0.692);
+        width: 200px;
+        padding: 0.5rem;
+        color: white;
+        border: none;
+    }
+
+}

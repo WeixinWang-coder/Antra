@@ -1,0 +1,27 @@
+<div class="header">
+    <p>CVS Directory</p>
+    <div class="links">
+      <ul>
+        <li>
+          <a [routerLink]="['/directory']" routerLinkActive="router-link-active"
+            >DIRECTORY</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/contact']" routerLinkActive="router-link-active"
+            >CONTACT US</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/about']" routerLinkActive="router-link-active"
+            >ABOUT</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <section>
+    <router-outlet></router-outlet>
+  </section>
+  

@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p {
+    padding: 1rem;
+    color: white;
+}
+.header {
+    background-color: rgba(151, 15, 15, 0.692);
+    display: flex;
+    justify-content:space-around;
+}
+.router-link-active {
+    background-color: red;
+}
+ul {
+    display: flex;
+    li {
+        list-style-type: none;
+        padding: 1rem;
+        text-decoration: none;
+    }
+}

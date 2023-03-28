@@ -1,0 +1,9 @@
+<p>CVS Users</p>
+<div class= "user" *ngFor="let item of user" >
+    <img [src]= "item.avatar">
+    <div class="info">
+        <span>{{item.first_name + ' ' +  item.last_name}}</span>
+        <br>
+        <span class="email">{{item.email}}</span>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+export interface Resource {
+    data:[];
+}
+export interface users{
+    id : number;
+    email: string;
+    first_name:string;
+    last_name:string;
+    avatar:string;
+}
