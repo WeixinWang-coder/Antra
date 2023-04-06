@@ -1,0 +1,8 @@
+<p>component1 works!</p>
+<form [formGroup] ="form" (ngSubmit)="submit()">
+    <input type="text" placeholder="name" formControlName="name">
+    <input type="text" placeholder="email" formControlName="email">
+    <input type="text" placeholder="number" formControlName="number">
+    <input type="text" placeholder="address" formControlName="address">
+    <button type="submit" [disabled]="!this.form.valid"> Submit</button>
+</form>
