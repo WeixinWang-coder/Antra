@@ -12,6 +12,7 @@ export class AppComponent implements OnInit   {
   title = '';
   content = '';
   noteList!:noteType[];
+  currentIndex:number = -1;
 
   ngOnInit(): void {
     this.noteList = this.ser.getNoteList();
@@ -31,6 +32,16 @@ export class AppComponent implements OnInit   {
   selectedNote(index:number) {
     this.title = this.ser.getNoteItem(index).title;
     this.content = this.ser.getNoteItem(index).content;
+    this.currentIndex = index;
   }
-
+  onUpdated(title:string, content:string) {
+    if(title === '' && content === '') {
+      return;
+    }
+    if(this.currentIndex !== -1) {
+      this.noteList[this.currentIndex].title = this.title;
+      this.noteList[this.currentIndex].content=this.content;
+      
+    }
+  }
 }
